@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors'; 
 import mongoose from 'mongoose';
 import products from './dbuser.js';
-const connection_url="mongodb+srv://raja:raja3381@cluster0.n9lt5.mongodb.net/marketdb?retryWrites=true&w=majority"
+const connection_url="mongod"
 //npm run watch
 mongoose.connect(connection_url,{
     useNewUrlParser:true,
